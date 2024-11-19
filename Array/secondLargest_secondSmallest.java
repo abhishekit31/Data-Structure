@@ -1,3 +1,5 @@
+package Array;
+
 public class secondLargest_secondSmallest {
     public static void main(String[] args) {
         int arr[] = { 2, 8, 5, 63, 7 };

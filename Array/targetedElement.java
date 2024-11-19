@@ -1,3 +1,5 @@
+package Array;
+
 public class targetedElement {
     public static void main(String[] args) {
         int target = 4;
