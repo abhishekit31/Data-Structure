@@ -13,6 +13,8 @@ public class mains {
 
         nums.delete(7);
 
+        nums.addLast(12);
+
         nums.printValues();
     }
 

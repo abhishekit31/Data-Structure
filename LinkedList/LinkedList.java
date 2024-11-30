@@ -65,4 +65,18 @@ public class LinkedList {
             System.out.println("Element not found in the list.");
         }
     }
+
+    public void addLast(int data) {
+        Node newNode = new Node(data);
+
+        if (head == null) {
+            System.out.println("List is empty");
+            return;
+        }
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+    }
 }
