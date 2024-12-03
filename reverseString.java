@@ -10,5 +10,10 @@ public class reverseString {
         }
         System.out.println();
 
+        // ==========another method=========
+
+        // String reversed = new StringBuilder(str).reverse().toString();
+        // System.out.println(reversed);
+
     }
 }
