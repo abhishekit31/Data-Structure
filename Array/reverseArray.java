@@ -15,16 +15,16 @@ public class reverseArray {
     }
 
     public static int[] InnerreverseArray(int[] arr) {
-        int start = 0;
-        int end = arr.length - 1;
+        int left = 0;
+        int right = arr.length - 1;
 
-        while (start < end) {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
+        while (left < right) {
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
 
-            start++;
-            end--;
+            left++;
+            right--;
 
         }
         return arr;
